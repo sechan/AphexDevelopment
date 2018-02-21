@@ -50,7 +50,7 @@ var seedData = [
 // A basic error handler, just like Express
 app.use(express.errorHandler());
 
-Connect to Aphex MongoDB
+//Connect to Aphex MongoDB
 MongoClient.connect(MONGO_URI, function(err, db){
     if(err) throw err;
     var dbo = db.db('aphex');
